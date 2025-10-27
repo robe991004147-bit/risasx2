@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Risasx2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background: #ffcc00;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .video-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .video-container iframe {
+      width: 100%;
+      height: 400px;
+      max-width: 700px;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    footer a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Risasx2</h1>
+  </header>
+  <main>
+    <p>¡Bienvenidos a Risasx2! Aquí compartimos lo mejor del humor, videos divertidos que alegran tu día y momentos inolvidables.</p>
+
+    <div class="video-container">
+      <!-- Aquí puedes mostrar un video destacado o un embed de YouTube -->
+      <iframe
+        src="https://www.youtube.com/embed/VIDEO_ID"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <p>Visita nuestro canal en YouTube para ver más contenido:</p>
+    <p><a href="https://www.youtube.com/@RobertoGuerra-e2p" target="_blank">Canal de YouTube Risasx2</a></p>
+  </main>
+  <footer>
+    <p>&copy; 2025 Risasx2</p>
+  </footer>
+</body>
+</html>
